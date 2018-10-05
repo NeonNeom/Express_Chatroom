@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+    <title>WebSockets 101</title>
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.dev.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to the <b>DARKSEID</b> niqqa...</h1>
+        <p>This is an dark theme <strong>chatroom</strong> constructed with node.js, express, and sockets.io</p>
+    </header>
+    <input type="text" id="username" name="username" placeholder="Username">
+    <div id="chat-window">
+            <div id="output"></div>
+            <div id="feedback"></div>
+        <p id="chat"></p>
+    </div>
+        <!-- <form action="/chatMessage" method="POST" > -->
+        
+        <input type="text" id="message" name="message" placeholder="Message">
+        <input type="submit" id="sendMessage" value="Submit">
+  <script src="chat.js"></script>
+</body>
+</html>
