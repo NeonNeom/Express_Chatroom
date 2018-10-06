@@ -105,3 +105,46 @@ button{
     font-size: 15.3px;
     margin-bottom: 8px;
 }
+
+html .dark{
+    background-color: #36393E !important;
+    color: rgb(228, 217, 217);
+    border-top: 1.5px solid #252628;
+    border-bottom: none;
+}
+
+html .darker{
+    background-color: #252628 !important;
+}
+
+#theme{
+    position: fixed;
+    top: 25px;
+    right: 12px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid rgb(228, 217, 217, .15);
+    background-color: #252628;
+    
+}
+
+.colorBox{
+    display: block;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    padding: 7px;
+    float: left;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+#lightTheme{
+    background-color: #36393E;
+    
+}
+
+#darkTheme{
+    background-color: #252628;
+}
